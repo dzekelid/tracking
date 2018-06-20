@@ -4,10 +4,10 @@ x-collection-name: Eventbrite
 x-complete: 1
 info:
   title: Eventbrite
-  description: the-eventbrite-api-is-the-best-way-to-integrate-and-extend-eventbrite-for-your-event-or-organising-needs-version-3-of-the-api-brings-you-faster-responses-consistent-data-types-more-endpoints-and-easier-debugging-and-testing
+  description: create-manage--promote-events--add-eventmanagement-features-to-your-site--show-the-world-what-exciting-things-are-happening-around-them-
   version: 1.0.0
-host: www.eventbriteapi.com
-basePath: /v3
+host: www.eventbrite.com
+basePath: /%7Bdata-type%7D/
 schemes:
 - http
 produces:
@@ -17,7 +17,7 @@ consumes:
 paths:
   /tracking_beacons/:
     post:
-      summary: Add Tracking Beacons
+      summary: Post Tracking Beacons
       description: Makes a new tracking beacon. Returns an tracking_beacon as tracking_beacon.
         Either event_id or user_id is required for each tracking beacon. If the event_id
         is provided, the tracking pixel will fire only for that event. If the user_id
@@ -73,10 +73,10 @@ paths:
       tags:
       - Tracking
       - Beacons
-      - Tracking
+      - :tracking
       - Beacons
     post:
-      summary: Add Tracking Beacons Tracking Beacons
+      summary: Post Tracking Beacons Tracking Beacons
       description: Updates the tracking_beacons with the specified :tracking_beacons_id.
         Though event_id and user_id are not individually required, it is a requirement
         to have a tracking beacon where either one must exist. Returns an tracking_beacon
@@ -114,7 +114,7 @@ paths:
       tags:
       - Tracking
       - Beacons
-      - Tracking
+      - :tracking
       - Beacons
     delete:
       summary: Delete Tracking Beacons Tracking Beacons
@@ -127,11 +127,11 @@ paths:
       tags:
       - Tracking
       - Beacons
-      - Tracking
+      - :tracking
       - Beacons
   /events/:event_id/tracking_beacons/:
     get:
-      summary: Get Events Event  Tracking Beacons
+      summary: Get Events Event Tracking Beacons
       description: Returns the list of tracking_beacon for the event :event_id
       operationId: getEventsEventTrackingBeacons
       x-api-path-slug: eventsevent-idtracking-beacons-get
@@ -145,13 +145,12 @@ paths:
           description: OK
       tags:
       - Events
-      - Event
-      - ""
+      - :event
       - Tracking
       - Beacons
   /users/:user_id/tracking_beacons/:
     get:
-      summary: Get Users User  Tracking Beacons
+      summary: Get Users User Tracking Beacons
       description: Returns the list of tracking_beacon for the user :user_id
       operationId: getUsersUserTrackingBeacons
       x-api-path-slug: usersuser-idtracking-beacons-get
@@ -165,8 +164,7 @@ paths:
           description: OK
       tags:
       - Users
-      - User
-      - ""
+      - :user
       - Tracking
       - Beacons
 ---

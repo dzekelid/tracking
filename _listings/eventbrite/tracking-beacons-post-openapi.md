@@ -3,14 +3,14 @@ swagger: "2.0"
 x-collection-name: Eventbrite
 x-complete: 0
 info:
-  title: Eventbrite Add Tracking Beacons
+  title: Eventbrite Post Tracking Beacons
   description: Makes a new tracking beacon. Returns an tracking_beacon as tracking_beacon.
     Either event_id or user_id is required for each tracking beacon. If the event_id
     is provided, the tracking pixel will fire only for that event. If the user_id
     is provided, the tracking pixel will fire for all events organized by that user.
   version: 1.0.0
-host: www.eventbriteapi.com
-basePath: /v3
+host: www.eventbrite.com
+basePath: /%7Bdata-type%7D/
 schemes:
 - http
 produces:
@@ -20,7 +20,7 @@ consumes:
 paths:
   /tracking_beacons/:
     post:
-      summary: Add Tracking Beacons
+      summary: Post Tracking Beacons
       description: Makes a new tracking beacon. Returns an tracking_beacon as tracking_beacon.
         Either event_id or user_id is required for each tracking beacon. If the event_id
         is provided, the tracking pixel will fire only for that event. If the user_id
