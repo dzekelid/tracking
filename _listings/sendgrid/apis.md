@@ -7,13 +7,13 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgr
 x-kinRank: "9"
 x-alexaRank: "10000"
 tags: Tracking
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/sendgrid/apis.md
 specificationVersion: "0.14"
 apis:
-- name: SendGrid Get Tracking Settings
-  x-api-slug: sendgrid
+- name: SendGrid - Get Tracking Settings
+  x-api-slug: tracking-settings-get
   description: |-
     **This endpoint allows you to retrieve a list of all tracking settings that you can enable on your account.**
 
@@ -22,15 +22,16 @@ apis:
     For more information about tracking, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/tracking.html).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//tracking_settings
-  tags: Email,Tracking, Settings
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/sendgrid/tracking-settings-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/sendgrid/tracking-settings-get-openapi.md
-- name: SendGrid Get Tracking Settings Click
-  x-api-slug: sendgrid
+- name: SendGrid - Get Tracking Settings Click
+  x-api-slug: tracking-settingsclick-get
   description: |-
     **This endpoint allows you to retrieve your current click tracking setting.**
 
@@ -39,15 +40,16 @@ apis:
     For more information about tracking, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/tracking.html).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//tracking_settings/click
-  tags: Email,Tracking, Settings, Click
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/sendgrid/tracking-settingsclick-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/sendgrid/tracking-settingsclick-get-openapi.md
-- name: SendGrid Patch Tracking Settings Click
-  x-api-slug: sendgrid
+- name: SendGrid - Patch Tracking Settings Click
+  x-api-slug: tracking-settingsclick-patch
   description: |-
     **This endpoint allows you to change your current click tracking setting. You can enable, or disable, click tracking using this endpoint.**
 
@@ -56,93 +58,94 @@ apis:
     For more information about tracking, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/tracking.html).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//tracking_settings/click
-  tags: Email,Tracking, Settings, Click
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/sendgrid/tracking-settingsclick-patch-openapi.md
-- name: SendGrid Get Tracking Settings Google Analytics
-  x-api-slug: sendgrid
-  description: "**This endpoint allows you to retrieve your current setting for Google
-    Analytics.**\n\nFor more information about using Google Analytics, please refer
-    to [Google\u2019s URL Builder](https://support.google.com/analytics/answer/1033867?hl=en)
-    and their article on [\"Best Practices for Campaign Building\"](https://support.google.com/analytics/answer/1037445).\n\nWe
-    default the settings to Google\u2019s recommendations. For more information, see
-    [Google Analytics Demystified](https://sendgrid.com/docs/Classroom/Track/Collecting_Data/google_analytics_demystified_ga_statistics_vs_sg_statistics.html).\n\nYou
-    can track a variety of the actions your recipients may take when interacting with
-    your emails including opening your emails, clicking on links in your emails, and
-    subscribing to (or unsubscribing from) your emails.\n\nFor more information about
-    tracking, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/tracking.html)."
+- name: SendGrid - Get Tracking Settings Google Analytics
+  x-api-slug: tracking-settingsgoogle-analytics-get
+  description: |-
+    **This endpoint allows you to retrieve your current setting for Google Analytics.**
+
+    For more information about using Google Analytics, please refer to [Google???s URL Builder](https://support.google.com/analytics/answer/1033867?hl=en) and their article on ["Best Practices for Campaign Building"](https://support.google.com/analytics/answer/1037445).
+
+    We default the settings to Google???s recommendations. For more information, see [Google Analytics Demystified](https://sendgrid.com/docs/Classroom/Track/Collecting_Data/google_analytics_demystified_ga_statistics_vs_sg_statistics.html).
+
+    You can track a variety of the actions your recipients may take when interacting with your emails including opening your emails, clicking on links in your emails, and subscribing to (or unsubscribing from) your emails.
+
+    For more information about tracking, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/tracking.html).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//tracking_settings/google_analytics
-  tags: Email,Tracking, Settings, Google, Analytics
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/sendgrid/tracking-settingsgoogle-analytics-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/sendgrid/tracking-settingsgoogle-analytics-get-openapi.md
-- name: SendGrid Patch Tracking Settings Google Analytics
-  x-api-slug: sendgrid
-  description: "**This endpoint allows you to update your current setting for Google
-    Analytics.**\n\nFor more information about using Google Analytics, please refer
-    to [Google\u2019s URL Builder](https://support.google.com/analytics/answer/1033867?hl=en)
-    and their article on [\"Best Practices for Campaign Building\"](https://support.google.com/analytics/answer/1037445).\n\nWe
-    default the settings to Google\u2019s recommendations. For more information, see
-    [Google Analytics Demystified](https://sendgrid.com/docs/Classroom/Track/Collecting_Data/google_analytics_demystified_ga_statistics_vs_sg_statistics.html).\n\nYou
-    can track a variety of the actions your recipients may take when interacting with
-    your emails including opening your emails, clicking on links in your emails, and
-    subscribing to (or unsubscribing from) your emails.\n\nFor more information about
-    tracking, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/tracking.html)."
+- name: SendGrid - Patch Tracking Settings Google Analytics
+  x-api-slug: tracking-settingsgoogle-analytics-patch
+  description: |-
+    **This endpoint allows you to update your current setting for Google Analytics.**
+
+    For more information about using Google Analytics, please refer to [Google???s URL Builder](https://support.google.com/analytics/answer/1033867?hl=en) and their article on ["Best Practices for Campaign Building"](https://support.google.com/analytics/answer/1037445).
+
+    We default the settings to Google???s recommendations. For more information, see [Google Analytics Demystified](https://sendgrid.com/docs/Classroom/Track/Collecting_Data/google_analytics_demystified_ga_statistics_vs_sg_statistics.html).
+
+    You can track a variety of the actions your recipients may take when interacting with your emails including opening your emails, clicking on links in your emails, and subscribing to (or unsubscribing from) your emails.
+
+    For more information about tracking, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/tracking.html).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//tracking_settings/google_analytics
-  tags: Email,Tracking, Settings, Google, Analytics
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/sendgrid/tracking-settingsgoogle-analytics-patch-openapi.md
-- name: SendGrid Get Tracking Settings Open
-  x-api-slug: sendgrid
-  description: "**This endpoint allows you to retrieve your current settings for open
-    tracking.**\n\nOpen Tracking adds an invisible image at the end of the email which
-    can track email opens. If the email recipient has images enabled on their email
-    client, a request to SendGrid\u2019s server for the invisible image is executed
-    and an open event is logged. These events are logged in the Statistics portal,
-    Email Activity interface, and are reported by the Event Webhook.\n\nYou can track
-    a variety of the actions your recipients may take when interacting with your emails
-    including opening your emails, clicking on links in your emails, and subscribing
-    to (or unsubscribing from) your emails.\n\nFor more information about tracking,
-    please see our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/tracking.html)."
+- name: SendGrid - Get Tracking Settings Open
+  x-api-slug: tracking-settingsopen-get
+  description: |-
+    **This endpoint allows you to retrieve your current settings for open tracking.**
+
+    Open Tracking adds an invisible image at the end of the email which can track email opens. If the email recipient has images enabled on their email client, a request to SendGrid???s server for the invisible image is executed and an open event is logged. These events are logged in the Statistics portal, Email Activity interface, and are reported by the Event Webhook.
+
+    You can track a variety of the actions your recipients may take when interacting with your emails including opening your emails, clicking on links in your emails, and subscribing to (or unsubscribing from) your emails.
+
+    For more information about tracking, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/tracking.html).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//tracking_settings/open
-  tags: Email,Tracking, Settings, Open
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/sendgrid/tracking-settingsopen-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/sendgrid/tracking-settingsopen-get-openapi.md
-- name: SendGrid Patch Tracking Settings Open
-  x-api-slug: sendgrid
-  description: "**This endpoint allows you to update your current settings for open
-    tracking.**\n\nOpen Tracking adds an invisible image at the end of the email which
-    can track email opens. If the email recipient has images enabled on their email
-    client, a request to SendGrid\u2019s server for the invisible image is executed
-    and an open event is logged. These events are logged in the Statistics portal,
-    Email Activity interface, and are reported by the Event Webhook.\n\nYou can track
-    a variety of the actions your recipients may take when interacting with your emails
-    including opening your emails, clicking on links in your emails, and subscribing
-    to (or unsubscribing from) your emails.\n\nFor more information about tracking,
-    please see our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/tracking.html)."
+- name: SendGrid - Patch Tracking Settings Open
+  x-api-slug: tracking-settingsopen-patch
+  description: |-
+    **This endpoint allows you to update your current settings for open tracking.**
+
+    Open Tracking adds an invisible image at the end of the email which can track email opens. If the email recipient has images enabled on their email client, a request to SendGrid???s server for the invisible image is executed and an open event is logged. These events are logged in the Statistics portal, Email Activity interface, and are reported by the Event Webhook.
+
+    You can track a variety of the actions your recipients may take when interacting with your emails including opening your emails, clicking on links in your emails, and subscribing to (or unsubscribing from) your emails.
+
+    For more information about tracking, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/tracking.html).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//tracking_settings/open
-  tags: Email,Tracking, Settings, Open
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/sendgrid/tracking-settingsopen-patch-openapi.md
-- name: SendGrid Get Tracking Settings Subscription
-  x-api-slug: sendgrid
+- name: SendGrid - Get Tracking Settings Subscription
+  x-api-slug: tracking-settingssubscription-get
   description: |-
     **This endpoint allows you to retrieve your current settings for subscription tracking.**
 
@@ -153,15 +156,16 @@ apis:
     For more information about tracking, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/tracking.html).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//tracking_settings/subscription
-  tags: Email,Tracking, Settings, Subscription
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/sendgrid/tracking-settingssubscription-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/sendgrid/tracking-settingssubscription-get-openapi.md
-- name: SendGrid Patch Tracking Settings Subscription
-  x-api-slug: sendgrid
+- name: SendGrid - Patch Tracking Settings Subscription
+  x-api-slug: tracking-settingssubscription-patch
   description: |-
     **This endpoint allows you to update your current settings for subscription tracking.**
 
@@ -172,27 +176,19 @@ apis:
     For more information about tracking, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Settings/tracking.html).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//tracking_settings/subscription
-  tags: Email,Tracking, Settings, Subscription
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/sendgrid/tracking-settingssubscription-patch-openapi.md
-- name: SendGrid
-  x-api-slug: sendgrid
-  description: SendGrids cloud-based email infrastructure relieves businesses of the
-    cost and complexity of maintaining custom email systems. SendGrid provides reliable
-    delivery, scalability and real-time analytics along with flexible APIs that make
-    custom integration a breeze.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
-  humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3
-  tags: Tracking
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/sendgrid/openapi.md
 x-common:
 - type: x--net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
+- type: x-api-gallery
+  url: http://school.digger.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://sendgrid.stack.network
 - type: x-base
   url: https://api.sendgrid.com
 - type: x-blog

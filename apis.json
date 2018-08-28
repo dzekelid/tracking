@@ -1,0 +1,584 @@
+{
+	"name": "Streadata.io API Gallery - Tracking",
+	"description": "This is a repository of tracking APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/tracking.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://tracking.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "SendGrid",
+			"x-api-slug": "sendgrid",
+			"description": "Delivering your transactional and marketing emails through the worlds largest cloud-based email delivery platform. Send with confidence.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg",
+			"humanURL": "http://sendgrid.com",
+			"baseURL": "https:///",
+			"tags": "Tracking",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/sendgrid/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Eventbrite",
+			"x-api-slug": "eventbrite",
+			"description": "Eventbrite brings people together through live experiences. Discover events that match your passions, or create your own with online ticketing tools.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg",
+			"humanURL": "http://eventbriteapi.com",
+			"baseURL": "https://www.eventbrite.com//%7Bdata-type%7D/",
+			"tags": "Tracking",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/eventbrite/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "7digital",
+			"x-api-slug": "7digital",
+			"description": "Welcome to 7digital!    Choose from over 30 million high quality tracks in our store; download, sync and play your music on the go.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/294-7digital.jpg",
+			"humanURL": "http://7digital.com",
+			"baseURL": "https://api.7digital.com/1.2/",
+			"tags": "Tracking",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/7digital/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Altmetric",
+			"x-api-slug": "altmetric",
+			"description": "Altmetric tracks mentions of scholarly works on social media sites, scholarly bookmarking services and in science news outlets. It handles all of the heavy lifting involved in extracting, disambiguating and collating this information so that you can focus on your core product. The Altmetric API gives you programmatic access the data about articles &amp; datasets collected by Altmetric.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/api_header_logo.png",
+			"humanURL": "http://www.altmetric.com",
+			"baseURL": "https:///",
+			"tags": "Tracking",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/altmetric/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Apsalar",
+			"x-api-slug": "apsalar",
+			"description": "Apsalar provides mobile app attribution and audience building services that optimize marketing effectiveness and drive maximum ROI.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/690-apsalar.jpg",
+			"humanURL": "http://apsalar.com/",
+			"baseURL": "https:///",
+			"tags": "Tracking",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/apsalar/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Atlassian",
+			"x-api-slug": "atlassian",
+			"description": "Millions of users globally rely on Atlassian products every day for improving software development, project management, collaboration, and code quality.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg",
+			"humanURL": "http://atlassian.com/",
+			"baseURL": "https:////",
+			"tags": "Tracking",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/atlassian/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Bontq",
+			"x-api-slug": "bontq",
+			"description": "Try the BONTQ Bug Tracking System - a Web Based Tool for Tracking Projects, Tasks, Issues and many more...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/711-bontq.jpg",
+			"humanURL": "http://www.bontq.com/",
+			"baseURL": "https:///",
+			"tags": "Tracking",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/bontq/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "BugHerd",
+			"x-api-slug": "bugherd",
+			"description": "Bug tracking so simple, its like sticky-notes for your website. Free trial, get started today.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/718-bugherd.jpg",
+			"humanURL": "http://www.bugherd.com",
+			"baseURL": "https:///",
+			"tags": "Tracking",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/bugherd/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Opentracker",
+			"x-api-slug": "opentracker",
+			"description": "Use real time analytics to engage with your customers. Monitor behavior on your sit as it happens. Advanced event analytics platform. Free trial.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/903-opentracker.jpg",
+			"humanURL": "http://www.opentracker.net/",
+			"baseURL": "https:///",
+			"tags": "Tracking",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/opentracker/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "YRC",
+			"x-api-slug": "yrc",
+			"description": "We are the original LTL experts with comprehensive North American coverage and a broad portfolio of expedited and specialized LTL freight shipping services.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/981-yrc.jpg",
+			"humanURL": "http://www.yrc.com/e_commerce/api.html",
+			"baseURL": "https:///",
+			"tags": "Tracking",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/yrc/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Bugzilla",
+			"x-api-slug": "bugzilla",
+			"description": "Did you know? Mozilla  the maker of Firefox  fights to keep the Internet a global public resource, open and accessible to all.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1035-bugzilla.jpg",
+			"humanURL": "https://wiki.mozilla.org/Bugzilla:REST_API",
+			"baseURL": "https:///",
+			"tags": "Tracking",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/bugzilla/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Markit",
+			"x-api-slug": "markit",
+			"description": "IHS Markit  The Source for Critical Information and Insight",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1045-markit.jpg",
+			"humanURL": "http://www.markit.com/",
+			"baseURL": "https:///",
+			"tags": "Tracking",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/markit/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Donor Tools",
+			"x-api-slug": "donor-tools",
+			"description": "Smart online donor management software for nonprofits.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1049-donor-tools.jpg",
+			"humanURL": "http://www.donortools.com",
+			"baseURL": "https:///",
+			"tags": "Tracking",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/donor-tools/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Freespee",
+			"x-api-slug": "freespee",
+			"description": "Freespee is the only customer communication platform that allows businesses and their website visitors or app users to talk in real-time via any interface, typed or spoken.    Freespee???s Conversation Cloud is designed to humanise online commerce operat...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1061-freespee.jpg",
+			"humanURL": "http://support.freespee.com/hc/en-us/categories/preview?developers",
+			"baseURL": "https:///",
+			"tags": "Tracking",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/freespee/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Base",
+			"x-api-slug": "base",
+			"description": "Base built the first scientific sales platform that empowers businesses to grow revenue in a way thats measurable, repeatable and scalable. Unlike legacy cloud CRM and sales force automation systems, Base offers an all-in-one solution that increases r...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1063-base.jpg",
+			"humanURL": "https://getbase.com/",
+			"baseURL": "https:///",
+			"tags": "Tracking",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/base/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Sifter API",
+			"x-api-slug": "sifter-api",
+			"description": "A simple bug and issue tracker designed to be easy enough for non-technical team members to help track bugs and issues. Integrates with GitHub, Beanstalk, and Bitbucket.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1151-sifter-api.jpg",
+			"humanURL": "https://sifterapp.com",
+			"baseURL": "https:///",
+			"tags": "Tracking",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/sifter-api/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "trendspottr",
+			"x-api-slug": "trendspottr",
+			"description": "TrendSpottr: Predictive trend intelligence for brands, marketers & PR pros. Discover emerging trends, viral content & key influencers for any topic",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1184-trendspottr.jpg",
+			"humanURL": "http://trendspottr.com/api/v1.1/",
+			"baseURL": "https:///",
+			"tags": "Tracking",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/trendspottr/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "TweetReach",
+			"x-api-slug": "tweetreach",
+			"description": "Powerful Twitter analytics for smart marketers, built by Union Metrics.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1304-tweetreach.jpg",
+			"humanURL": "http://apidocs.tweetreach.com/wiki/API_Overview",
+			"baseURL": "https:///",
+			"tags": "Tracking",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/tweetreach/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Telogis",
+			"x-api-slug": "telogis",
+			"description": "Our GPS fleet management software can help your business reduce fuel costs, improve productivity and customer service. Learn more about how our easy to use dashboards can help you monitor vehicle and driver performance, organize your fieldworkers with ...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1362-telogis.jpg",
+			"humanURL": "http://www.telogis.com/solutions/geobase/geostream-silverstream/",
+			"baseURL": "https:///",
+			"tags": "Tracking",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/telogis/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Timr",
+			"x-api-slug": "timr",
+			"description": "Die digitale Zeiterfassung statt Excel und Papier - Professionell und Einfach, Fr Arbeitszeit, Urlaubsverwaltung, Projektzeiten. Auf Knopfdruck auswerten. Jetzt kostenlos testen!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1367-timr.jpg",
+			"humanURL": "http://www.timr.com/tour/api",
+			"baseURL": "https:///",
+			"tags": "Tracking",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/timr/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Ontimenow",
+			"x-api-slug": "ontimenow",
+			"description": "Axosoft is Scrum software for development teams. Get started doing Scrum, kanban or a hybrid with our agile project management software.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1455-ontimenow.jpg",
+			"humanURL": "http://developer.ontimenow.com/",
+			"baseURL": "https:///",
+			"tags": "Tracking",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/ontimenow/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Bitly",
+			"x-api-slug": "bitly",
+			"description": "Get the most out of your social and online marketing efforts. Own, understand and activate your best audience through the power of the link with Bitly Enterprise.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1503-bitly.jpg",
+			"humanURL": "http://bitly.com",
+			"baseURL": "https://api-ssl.bitly.com//v3",
+			"tags": "Tracking",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/bitly/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "EasyPost",
+			"x-api-slug": "easypost",
+			"description": "EasyPost is the simple shipping API for the UPS API, USPS API, Fedex API, DHL API, and more. Compare rates, buy postage, track packages, verify addresses, and more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1578-easypost.jpg",
+			"humanURL": "https://www.easypost.com/",
+			"baseURL": "https:///",
+			"tags": "Tracking",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/easypost/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "RegOnline by Lanyon",
+			"x-api-slug": "regonline-by-lanyon",
+			"description": "RegOnline offers quick, easy, and affordable event registration & event management software. Build, promote, and measure your events, simply and securely.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1632-regonline-by-lanyon.jpg",
+			"humanURL": "http://regonline.com",
+			"baseURL": "https:///",
+			"tags": "Tracking",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/regonline-by-lanyon/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AfterShip",
+			"x-api-slug": "aftership",
+			"description": "AfterShip is an automated tracking solution and API for eCommerce. Support tracking 460 international couriers worldwide.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/10212-aftership.jpg",
+			"humanURL": "https://www.aftership.com/",
+			"baseURL": "https:///",
+			"tags": "Tracking",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/aftership/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Shopify",
+			"x-api-slug": "shopify",
+			"description": "Shopify is a commerce platform that allows anyone to easily sell online at a retail location and everywhere in between. It offers a professional online storefront, a payment solution to accept credit cards, and the Shopify POS application to power retail sales.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Shopify-logo.png",
+			"humanURL": "https://www.shopify.com/",
+			"baseURL": "https://DefaultParameterValue:DefaultParameterValue@DefaultParameterValue.myshopify.com//",
+			"tags": "Tracking",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/shopify/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Actility",
+			"x-api-slug": "actility",
+			"description": "Actility is the leader in low power wide area (LoRaWAN and 3GPP) network connectivity management for the Internet of Things: the ThingPark platform",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28250-actility.jpg",
+			"humanURL": "https://www.actility.com",
+			"baseURL": "https://dx-api.thingpark.com//maker/v011/api",
+			"tags": "Tracking",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/actility/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Rebilly",
+			"x-api-slug": "rebilly",
+			"description": "",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png",
+			"humanURL": "https://www.rebilly.com",
+			"baseURL": "https://api.rebilly.com//v2.1",
+			"tags": "Tracking",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/rebilly/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GitLab",
+			"x-api-slug": "gitlab",
+			"description": "GitLab is a web-based Git-repository manager with wiki, issue-tracking and CI/CD pipelines features, using an open-source license, developed by GitLab Inc.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/githlab-logo.png",
+			"humanURL": "http://gitlab.com",
+			"baseURL": "https://localhost:3000//api",
+			"tags": "Tracking",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/gitlab/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Logicbroker",
+			"x-api-slug": "logicbroker",
+			"description": "Logicbroker provides beautiful technology that unites brands, retailers, and the systems they rely on. Harness the latest in cloud and supply chain automation technology with unrivaled speed and integration flexibility. We craft the connections that enable digital commerce.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logicbroker-logo.png",
+			"humanURL": "https://www.logicbroker.com/",
+			"baseURL": "https://stage.commerceapi.io//",
+			"tags": "Tracking",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/logicbroker/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Tracking",
+	"include": [
+		{
+			"name": "SendGrid",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/sendgrid/apis.yaml"
+		},
+		{
+			"name": "Eventbrite",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/eventbrite/apis.yaml"
+		},
+		{
+			"name": "7digital",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/7digital/apis.yaml"
+		},
+		{
+			"name": "Altmetric",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/altmetric/apis.yaml"
+		},
+		{
+			"name": "Apsalar",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/apsalar/apis.yaml"
+		},
+		{
+			"name": "Atlassian",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/atlassian/apis.yaml"
+		},
+		{
+			"name": "Bontq",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/bontq/apis.yaml"
+		},
+		{
+			"name": "BugHerd",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/bugherd/apis.yaml"
+		},
+		{
+			"name": "Opentracker",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/opentracker/apis.yaml"
+		},
+		{
+			"name": "YRC",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/yrc/apis.yaml"
+		},
+		{
+			"name": "Bugzilla",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/bugzilla/apis.yaml"
+		},
+		{
+			"name": "Markit",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/markit/apis.yaml"
+		},
+		{
+			"name": "Donor Tools",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/donor-tools/apis.yaml"
+		},
+		{
+			"name": "Freespee",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/freespee/apis.yaml"
+		},
+		{
+			"name": "Base",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/base/apis.yaml"
+		},
+		{
+			"name": "Sifter API",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/sifter-api/apis.yaml"
+		},
+		{
+			"name": "trendspottr",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/trendspottr/apis.yaml"
+		},
+		{
+			"name": "TweetReach",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/tweetreach/apis.yaml"
+		},
+		{
+			"name": "Telogis",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/telogis/apis.yaml"
+		},
+		{
+			"name": "Timr",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/timr/apis.yaml"
+		},
+		{
+			"name": "Ontimenow",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/ontimenow/apis.yaml"
+		},
+		{
+			"name": "Bitly",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/bitly/apis.yaml"
+		},
+		{
+			"name": "EasyPost",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/easypost/apis.yaml"
+		},
+		{
+			"name": "RegOnline by Lanyon",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/regonline-by-lanyon/apis.yaml"
+		},
+		{
+			"name": "AfterShip",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/aftership/apis.yaml"
+		},
+		{
+			"name": "Shopify",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/shopify/apis.yaml"
+		},
+		{
+			"name": "Actility",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/actility/apis.yaml"
+		},
+		{
+			"name": "Rebilly",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/rebilly/apis.yaml"
+		},
+		{
+			"name": "GitLab",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/gitlab/apis.yaml"
+		},
+		{
+			"name": "Logicbroker",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/tracking/master/_listings/logicbroker/apis.yaml"
+		}
+	]
+}
